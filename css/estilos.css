@@ -9,11 +9,10 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 header {
 	color: #000000;
     padding: 20px;
-    background-image: url(./../img/header_vinyl2.PNG);  
+    background-image: url(./../img/header_vinyl3.png);  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,16 +20,21 @@ header {
     margin: 0;
 }
 header h1 {
-    background-color: rgba(21, 23, 27, 0.5);
+    background-color: rgba(1, 2, 2, 0.5);
+    border: 5px solid black;
     border-radius: 50px;
     border-color: #000000;
     text-align: center;
     margin: 0 auto;
-    margin-top: 0px ;
+    margin-top: 0px;
     width: 500px;
+    height: 150px;
+}
+header p {
+    margin-top: -20px;
 }
 nav ul {
-	list-style: none;
+	text-decoration: none;
 	margin: 0;
 	padding: 0;
 }
