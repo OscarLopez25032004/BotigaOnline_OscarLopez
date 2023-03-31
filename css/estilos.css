@@ -10,45 +10,71 @@ body {
 	padding: 0;
 }
 header {
-	color: #000000;
+    color: #ffffff;
     padding: 20px;
-    background-image: url(./../img/header_vinyl3.png);  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 50vh;
     margin: 0;
 }
 header h1 {
+    display: flex;
     background-color: rgba(1, 2, 2, 0.5);
     border: 5px solid black;
     border-radius: 50px;
     border-color: #000000;
-    text-align: center;
-    margin: 0 auto;
     margin-top: 0px;
     width: 500px;
     height: 150px;
 }
 header p {
-    margin-top: -20px;
+    margin-left: 10px;
+    margin-top: 2px;
 }
-nav ul {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-}
-
 nav li {
+    border: 0.3px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: #000000;
+    margin-top: 180px;
+    background-color: rgba(1, 2, 2, 0.5);
 	display: inline-block;
 	margin-right: 20px;
 }
-
 nav a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #807f7f;
+	color: #000000;
+}
+main {
+    background-image: url("./../img/header_vinyl4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    margin: -20px;
+}
+.textoheader1 {
+    font-size: 0.5rem;
+}
+.MarginAlTextoDeMarca {
+    margin-right: 20px;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.colgrupos {
+    width: 100%;
+}
+.titulogrupos {
+    text-align: center;
+    font-size: 1rem;
 }
