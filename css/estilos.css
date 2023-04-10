@@ -8,33 +8,37 @@ body {
 	font-family: 'Fasthand', cursive;
 	margin: 0;
 	padding: 0;
+    margin-bottom: 100px;
 }
 header {
-    color: #ffffff;
     padding: 20px;
     height: 50vh;
-    margin: 0;
+    background-image: url("./../img/header_vinyl4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-header h1 {
-    display: flex;
-    background-color: rgba(1, 2, 2, 0.5);
-    border: 5px solid black;
-    border-radius: 50px;
-    border-color: #000000;
-    margin-top: 0px;
-    width: 500px;
-    height: 150px;
+main {
+    background-color: rgb(179, 179, 179);
 }
-header p {
-    margin-left: 10px;
-    margin-top: 2px;
+footer {
+	background-color: rgb(159, 159, 159);
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+	margin-left: 750px;
 }
 nav li {
     border: 0.3px solid black;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 20px;
     border-color: #000000;
-    margin-top: 180px;
     background-color: rgba(1, 2, 2, 0.5);
 	display: inline-block;
 	margin-right: 20px;
@@ -43,38 +47,46 @@ nav a {
 	color: #ffffff;
 	text-decoration: none;
 }
-
 nav a:hover {
 	color: #000000;
 }
-main {
-    background-image: url("./../img/header_vinyl4.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.row1 {
-    display: flex;
-    flex-wrap: wrap;
+.tituloheader {
     width: 100%;
-    background-color: black;
-    margin: -20px;
-}
-.textoheader1 {
-    font-size: 0.5rem;
-}
-.MarginAlTextoDeMarca {
-    margin-right: 20px;
+    margin-top: -5%;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
 }
 .row2 {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 .colgrupos {
     width: 100%;
 }
-.titulogrupos {
+.titulogrupospop {
     text-align: center;
     font-size: 1rem;
+}
+.column-4 {
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(179, 179, 179, 0.6);
+    transition: 1s;
+}
+.column-4:hover{
+    transform:scale(1.1);
+    z-index: 2;
+    border-radius: 20px;
+}
+.widthimggrupospop {
+    width: 100%;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    border-color: #000000;
+}
+.formulario {
+    text-align: center;
 }

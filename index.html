@@ -12,47 +12,147 @@
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="top">
-            <div class="row1 textoheader1">
-                <div class="MarginAlTextoDeMarca">
-                    <p>Team music</p>
-                </div>
-                <div>
-                    <p>&#128205;Calle Sant Pere 11<br>Santa Coloma de gramanet</p>
-                </div>
+    <header>
+            <div class="tituloheader">
+                <p>Team music</p>
             </div>
             <nav>
-                <li><a href="grupos">Grupos</a></li>
-                <li><a href="pedidos">Pedidos</a></li>
-                <li><a href="contacto">Contacto</a></li>
+                <li><a href="#grupos">Grups</a></li>
+                <li><a href="#comprar">Comprar</a></li>
+                <li><a href="./quiensomos/index.html">Contacte</a></li>
             </nav>
         </div>
     </header>
     <main>
         <div id="grupos" class="row2">
             <div class="colgrupos">
-                <p class="titulogrupos">Grupos populares</p>
+                <p class="titulogrupospop">Grups populars</p>
             </div>
-            <!-- indica cada una de las 6 imagenes -->
-            <div class="column-3">
-                <img src="./img/github.png" class="widthimggithub">
+            <div class="column-4">
+                <a href="./grupos/abba.html"><img src="./img/abba.png" class="widthimggrupospop"></a>
             </div>
-            <div class="column-3 heightimg">
-                <img src="./img/github.png" class="widthimggithub">
+            <div class="column-4">
+                <img src="./img/ACDC.PNG" class="widthimggrupospop">
             </div>
-            <div class="column-3 heightimg">
-                <img src="./img/github.png" class="widthimggithub">
+            <div class="column-4">
+                <img src="./img/Metallica.png" class="widthimggrupospop">
             </div>
-            <div class="column-3 heightimg">
-                <img src="./img/github.png" class="widthimggithub">
+            <div class="column-4">
+                <img src="./img/eltonjohn.png" class="widthimggrupospop">
             </div>
-            <div class="column-3 heightimg">
-                <img src="./img/github.png" class="widthimggithub">
+            <div class="column-4">
+                <img src="./img/thebeatles.png" class="widthimggrupospop">
             </div>
-            <div class="column-3 heightimg">
-                <img src="./img/github.png" class="widthimggithub">
+            <div class="column-4">
+                <img src="./img/madonna.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/michaeljackson.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/boneym.png" class="widthimggrupospop">
             </div>
         </div>
+        <div id="grupos" class="row2">
+            <div class="colgrupos">
+                <p class="titulogrupospop">Rock</p>
+            </div>
+            <div class="column-4">
+                <img src="./img/ACDC.PNG" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/Metallica.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/BryanAdams.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/thebeatles.png" class="widthimggrupospop">
+            </div>
+        </div>
+        <div id="grupos" class="row2">
+            <div class="colgrupos">
+                <p class="titulogrupospop">Pop español</p>
+            </div>
+            <div class="column-4">
+                <img src="./img/hombresg.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/fitoyfitipaldis.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/lacasaazul.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/elcantodelloco.png" class="widthimggrupospop">
+            </div>
+        </div>
+        <div id="grupos" class="row2">
+            <div class="colgrupos">
+                <p class="titulogrupospop">Obras maestras</p>
+            </div>
+            <div class="column-4">
+                <a href="./grupos/menatwork.html"><img src="./img/menatwork.PNG" class="widthimggrupospop"></a>
+            </div>
+            <div class="column-4">
+                <img src="./img/ACDC.PNG" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/Metallica.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/BryanAdams.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/theblackkeys.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/hombresg.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/thestrokes.png" class="widthimggrupospop">
+            </div>
+            <div class="column-4">
+                <img src="./img/direstraits.png" class="widthimggrupospop">
+            </div>
+        </div>
+        <div id="comprar" class="formulario">
+            <h2>Formulario de compra</h2>
+            <form action="procesar_compra.php" method="post">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              <label for="direccion">Direccio:</label>
+              <textarea id="direccion" name="direccion" rows="4" cols="30" required></textarea><br>
+              <label for="producto">Producte:</label>
+              <select id="producto" name="producto">
+                <option value="abba">ABBA</option>
+                <option value="acdc">ACDC</option>
+                <option value="Metallica">Metallica</option>
+                <option value="eltonjohn">Elton John</option>
+                <option value="thebeatles">The Beatles</option>
+                <option value="madonna">Madonna</option>
+                <option value="michaeljackson">Michael Jackson</option>
+                <option value="boneym">Boney M</option>
+                <option value="BryanAdams">Bryan Adams</option>
+                <option value="hombresg">Hombres G</option>
+                <option value="fitoyfitipaldis">Fito Y Fitipaldis</option>
+                <option value="lacasaazul">La Casa Azul</option>
+                <option value="elcantodelloco">El Canto Del Loco</option>
+                <option value="menatwork">Men At Work</option>
+                <option value="theblackkeys">The Black Keys</option>
+                <option value="thestrokes">The Strokes</option>
+                <option value="direstraits">Dire Straits</option>
+              </select><br>
+              <label for="cantidad">Quantitat:</label>
+              <input type="number" id="cantidad" name="cantidad" min="1" max="10" required><br>
+              <input type="submit" value="Comprar">
+            </form>
+        </div>
     </main>
+    <footer>
+        <a href="./es/index.html">Cambiar a Castellano</a>
+    </footer>
 </body>
 </html>
