@@ -8,7 +8,7 @@ body {
 	font-family: 'Fasthand', cursive;
 	margin: 0;
 	padding: 0;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 header {
     padding: 20px;
@@ -23,7 +23,7 @@ main {
 }
 footer {
 	background-color: rgb(159, 159, 159);
-	padding: 10px;
+	padding: 3px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
@@ -76,7 +76,12 @@ nav a:hover {
     box-shadow: 0 0 20px rgba(179, 179, 179, 0.6);
     transition: 1s;
 }
-.column-4:hover{
+.column-4-1 {
+    width: 23%;
+    padding: 20px;
+    margin: 10px;
+}
+.column-4:hover {
     transform:scale(1.1);
     z-index: 2;
     border-radius: 20px;
@@ -88,5 +93,31 @@ nav a:hover {
     border-color: #000000;
 }
 .formulario {
+    text-align: center;
+}
+.tituloheadercontacto {
+    width: 100%;
+    margin-top: -5%;
+    text-align: center;
+    font-size: 3rem;
+    color: #000000;
+}
+.textocontacto {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #353535;
+}
+.margindatoscontacto {
+    margin-top: 10px;
+}
+.column-2 {
+    width: 50%;
+    padding: 20px;
+}
+.center-footer-a{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
 }
