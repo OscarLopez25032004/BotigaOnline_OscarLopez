@@ -43,7 +43,7 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
-	margin-left: 750px;
+	margin-left: 50%;
 }
 /* indica el estilo css de los elementos del panel de navegación */
 nav li {
@@ -113,6 +113,14 @@ nav a:hover {
     border: 0.3px solid black;
     border-radius: 20px;
     border-color: #000000;
+    margin-top: -5%;
+}
+/* indica el ancho y el estil del borde de las imagenes de los grupos */
+.widthimggrupospop2 {
+    width: 100%;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    border-color: #000000;
 }
 /* indica el estilo css del formulario */
 .formulario {
@@ -148,6 +156,13 @@ nav a:hover {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+/* indica el ancho y el estil del borde de las imagenes de los grupos */
+.widthimgfooter {
+    width: 10%;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    border-color: #000000;
 }
 /* indican las media queries que se aplican cuando la pantalla es de tamaño menor a 600px */
 @media screen and (max-width: 600px) {
