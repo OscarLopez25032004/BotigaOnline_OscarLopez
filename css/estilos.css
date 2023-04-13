@@ -164,6 +164,33 @@ nav a:hover {
     border-radius: 20px;
     border-color: #000000;
 }
+/* indica el estilo de las imagenes del carousel de discos */
+.widthimgdiscos {
+    margin-left: 5%;
+    margin-top: -2.5%;
+}
+/* indica el estilo de la seccion del carousel */
+.section1{
+    display: flex;
+    width: 700px;
+    height: 430px;
+}
+/* indica el estilo de las imagenes del section1 */
+.section1 img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+/* indica la animacion que hacen las img de la seccion del carousel al pasar el raton por encima */
+.section1 img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
 /* indican las media queries que se aplican cuando la pantalla es de tamaño menor a 600px */
 @media screen and (max-width: 600px) {
     /* indica el cambio de letra al aplicar la media query */
