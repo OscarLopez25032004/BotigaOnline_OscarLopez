@@ -258,7 +258,7 @@ nav a:hover {
     .textocontacto {
         width: 100%;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: #353535;
     }
     /* indica la media query de todo el body de las paginas web de los grupos musicales */
@@ -272,6 +272,6 @@ nav a:hover {
     }
     /* indica la media query de otras columnas que se dividen en 4 elementos (la de las paginas de los grupos musicales) */
     .column-4-1 {
-        width: 45%;
+        width: 40%;
     }
 }
