@@ -212,6 +212,10 @@ nav a:hover {
     body {
         margin-bottom: 50px;
     }
+    /* indica el estilo css de todo el body de la pagina web de datos de la empresa o contacto */
+    .bodycontacto {
+        margin-bottom: 200px;
+    }
     /* indica la media query del panel de navegación de la pagina principal */
     nav li {
         border: 0.3px solid black;
