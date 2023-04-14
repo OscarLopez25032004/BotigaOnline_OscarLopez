@@ -25,7 +25,7 @@
             <nav>
                 <li><a href="#grupos">Grupos</a></li>
                 <li><a href="#comprar">Comprar</a></li>
-                <li><a href="./quiensomos/index.html">Contacto</a></li>
+                <li><a href="./../quiensomos/index.html">Contacto</a></li>
             </nav>
         </div>
     </header>
@@ -138,6 +138,7 @@
               <textarea id="direccion" name="direccion" rows="4" cols="30" required></textarea><br>
               <label for="producto">Producto:</label>
               <select id="producto" name="producto">
+                <option value="">--Escoje una opción--</option>
                 <option value="abba">ABBA</option>
                 <option value="acdc">ACDC</option>
                 <option value="Metallica">Metallica</option>
@@ -164,7 +165,11 @@
     </main>
     <!-- indica el pie de pagina, al clicar redige a la pagina en castellano -->
     <footer>
-        <a href="./../index.html">Cambiar a Catala</a>
+        <div id="integrantes" class="imgfooter">
+			<div>
+				<a href="./../index.html"><img src="./../img/banderacat.png" class="widthimgfooter"></a>
+			</div>
+		</div>
     </footer>
 </body>
 </html>

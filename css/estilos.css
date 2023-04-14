@@ -17,6 +17,10 @@ body {
 .bodycontact {
     margin-bottom: 120px;
 }
+/* indica el estilo css de todo el body de la pagina web de datos de la empresa o contacto */
+.bodycontacto {
+    font-family: 'Roboto', sans-serif;
+}
 /* indica el estilo css del encabezado */
 header {
     padding: 20px;
@@ -38,6 +42,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
+    z-index: 2;
 }
 /* indica el estilo css de los elementos del pie de pagina */
 footer a {
@@ -104,7 +109,7 @@ nav a:hover {
 /* indica el estilo css de las columnas que se dividen en 4 elementos al arrastrar el ratón por encima */
 .column-4:hover {
     transform:scale(1.1);
-    z-index: 2;
+    z-index: 1;
     border-radius: 20px;
 }
 /* indica el ancho y el estil del borde de las imagenes de los grupos */
@@ -160,7 +165,7 @@ nav a:hover {
 /* indica el ancho y el estil del borde de las imagenes de los grupos */
 .widthimgfooter {
     width: 10%;
-    border: 0.3px solid black;
+    border: 0.1px solid black;
     border-radius: 20px;
     border-color: #000000;
 }
@@ -190,9 +195,79 @@ nav a:hover {
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
-  }
+}
+/* indica el estilo css de las imgs de los idiomas del footer */
+.imgfooter {
+    margin-left: 22.5%;
+    width: 50%;
+}
+/* indican las media queries que se aplican cuando la pantalla es de tamaño menor a 1600px */
+@media screen and (max-width: 1600px) {
+    /* indica la media query de todo el body de las paginas web de los grupos musicales */
+    .bodycontact {
+        margin-bottom: 150px;
+    }
+    /* indica la media query de todo el body de la pagina web de datos de la empresa o contacto */
+    .bodycontacto {
+        margin-bottom: 150px;
+    }
+    /* indica la media query de las imagenes del carousel de discos */
+    .widthimgdiscos {
+        margin-left: 0%;
+        margin-top: -2.5%;
+    }
+    /* indica la medai query de las imagenes del section1 o carousel */
+    .section1{
+        display: flex;
+        width: 500px;
+        height: 430px;
+    }
+    /* indica la media query para que se modifique el ancho y el estil del borde de las imagenes de los grupos */
+    .widthimgfooter {
+        width: 20%;
+        margin-left: -25%;
+    }
+    /* indica la media query de otras columnas que se dividen en 4 elementos (la de las paginas de los grupos musicales) */
+    .column-4-1 {
+        width: 45%;
+    }
+}
+/* indican las media queries que se aplican cuando la pantalla es de tamaño menor a 1000px */
+@media screen and (max-width: 1100px) {
+    /* indica la media query de todo el body de las paginas web de los grupos musicales */
+    .bodycontact {
+        margin-bottom: 200px;
+    }
+    /* indica la media query de todo el body de la pagina web de datos de la empresa o contacto */
+    .bodycontacto {
+        margin-bottom: 200px;
+    }
+    /* indica la medai query de las imagenes del section1 o carousel */
+    .section1{
+        display: flex;
+        width: 400px;
+    }
+    /* indica la media query de todo el body de la pagina web de datos de la empresa o contacto */
+    .textocontacto {
+        font-size: 0.5rem;
+    }
+    /* indica la media query del panel de navegación de la pagina principal */
+    nav li {
+        font-size: 0.6rem;
+        margin-right: 0px;
+    }
+    /* indica la media query para que se modifique el ancho y el estil del borde de las imagenes de los grupos */
+    .widthimgfooter {
+        width: 50%;
+        margin-left: -25%;
+    }
+    /* indica la media query de otras columnas que se dividen en 4 elementos (la de las paginas de los grupos musicales) */
+    .column-4-1 {
+        width: 45%;
+    }
+}
 /* indican las media queries que se aplican cuando la pantalla es de tamaño menor a 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     /* indica el cambio de letra al aplicar la media query */
     html {
         font-size: 25px;
@@ -210,7 +285,8 @@ nav a:hover {
         background-color: rgba(1, 2, 2, 0.5);
         display: inline-block;
         margin-right: 5px;
-        margin-top: 50px;
+        margin-top: 9px;
+        font-size: 1rem;
     }
     /* indica la media query del pie de pagina de la pagina principal */
     footer a {
@@ -242,15 +318,24 @@ nav a:hover {
         width: 100%;
         padding: 20px;
     }
-    /* indica la media query del texto de la pagina de contacto */
+    /* indica la media query de todo el body de la pagina web de datos de la empresa o contacto */
     .textocontacto {
         width: 100%;
         text-align: center;
         font-size: 1.3rem;
         color: #353535;
     }
-    /* indica la media query del body de las paginas de los grupos musicales */
+    /* indica la media query de todo el body de las paginas web de los grupos musicales */
     .bodycontact {
         margin-bottom: 150px;
+    }
+    /* indica la media query para que se modifique el ancho y el estil del borde de las imagenes de los grupos */
+    .widthimgfooter {
+        width: 10%;
+        margin-left: 15%;
+    }
+    /* indica la media query de otras columnas que se dividen en 4 elementos (la de las paginas de los grupos musicales) */
+    .column-4-1 {
+        width: 45%;
     }
 }
